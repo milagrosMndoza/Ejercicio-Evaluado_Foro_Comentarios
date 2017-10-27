@@ -6,10 +6,10 @@ export const COMMENT = [];
 // export const inputName = null;
 // export const inputComent = null;
     
-let index = 0;
+// let index = 0;
  
 const initialState={
-index:index,
+// index:index,
 comments:COMMENT
     
 }

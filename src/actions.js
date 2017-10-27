@@ -1,7 +1,7 @@
 import  store from './store'
 
   export const addComment = (name, comment) =>{
-   const comments = [...store.getState().comments]
+   const comments = [...store.getState().comments];
    const newComment= comments.concat( {
          name: name,
          comment: comment

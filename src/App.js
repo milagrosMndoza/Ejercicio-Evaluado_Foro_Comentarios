@@ -15,8 +15,8 @@ const ListCreate = ({ name, comment, index  }) => {
               <p>{comment}</p>
           </li>
         </div>
-        <button onClick={() => deleteComment(index)}><a>DeleteComment</a></button>
-          <a href="">Report as abuse</a>
+        <button onClick={() => deleteComment(index)}><a>DELETE COMMENTS</a></button>
+          <a href="">REPORT AS ABUSE</a>
     </div>
   );  
 }
